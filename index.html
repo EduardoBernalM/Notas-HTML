@@ -2,8 +2,55 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css init">
     <title></title>
+    <style>
+        h1{background-color: blanchedalmond;
+        color: blueviolet;
+        height: 80px;
+        width: 800px;
+        }
+        p{
+            background-color: yellow;
+            color: purple;
+            width: 800px;
+        }
+        table{
+            background-color: bisque;
+            color:violet;
+        }
+        td{
+            color: black;
+        }
+        h2{
+            color:midnightblue;
+        }
+        p{
+            background-color: yellow;
+            color: purple; 
+            border: 5px solid;     color: black;
+            padding: 30px,20px, 10px, 80px;
+            margin: 20px
+        }
+        p{
+            font-size: 20px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding:1em;
+            height: 20px;
+        }
+        body{
+            background-image: url("IMG/forza2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .sec-azul{
+            background-color: blue;
+        }
+        #sec-principal{
+            background-color: orange;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,24 +59,14 @@
         <p>Notas del curso desarrollo web PILARES</p>
     </header>
     <main>
-        <section>
+        <section id="sec-principal">
             <h2>HTML</h2>
             <p>hypertext markup lenguaje (HTML), es un lenguaje demarcado cuyas caracteristicas son</p>
             <h2>Sintaxis HTML</h2>
-            <span style="color:red">"valor" &gt;</span>
-            <p>&lt; nombre <span style="color:blue">atributo=</span>
-        </p>
+          
+            <p>   &lt; Nombre <span style="color:blue">atributo=</span><span style="color:red"> "valor" &gt; </span>
         </section>
-        <section>
-            <h2>Estructura Basica</h2>
-            <p>
-                &lt; !DOCTYPE &gt;
-                
-
-
-            </p>
-        </section>
-        <section>
+        <section class="sec-azul">
             <h2>Elementos Basicos HTML</h2>
             <table>
                 <tr>
@@ -79,6 +116,10 @@
             </tr>
                 
             </table>    
+
+        </section>
+        <section class="sec-azul">
+            <h2>Lenguaje CSS</h2>
 
         </section>
 </body>
