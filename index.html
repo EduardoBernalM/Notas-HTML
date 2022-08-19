@@ -26,7 +26,7 @@
             color:midnightblue;
         }
         p{
-            background-color: yellow;
+            background-color: aqua;
             color: purple; 
             border: 5px solid;     color: black;
             padding: 30px,20px, 10px, 80px;
@@ -50,13 +50,33 @@
         #sec-principal{
             background-color: orange;
         }
-    </style>
-</head>
+    
+        section>article>p{
+                background-color: violet;
+        }
+        li{
+            border:5px solid; color: yellow;
+            border-radius: 20px ;
+            padding:1em;
+            margin:2cm;
+            display:inline-block;
+            box-shadow: 20px 10px 5px aqua;
+            }
+            
+        </style>
 
+        </head>
 <body>
     <header>
         <h1>Desarrollo Web</h1>
         <p>Notas del curso desarrollo web PILARES</p>
+        <nav>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="html/lenguajeCSS.html">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="sec-principal">
@@ -64,10 +84,10 @@
             <p>hypertext markup lenguaje (HTML), es un lenguaje demarcado cuyas caracteristicas son</p>
             <h2>Sintaxis HTML</h2>
           
-            <p>   &lt; Nombre <span style="color:blue">atributo=</span><span style="color:red"> "valor" &gt; </span>
+            <p>   &lt; Nombre <span style="color:blue">atributo=</span><span style="color:red"> "valor" &gt; </span></p>
         </section>
         <section class="sec-azul">
-            <h2>Elementos Basicos HTML</h2>
+            <h2>Elementos Basicos HTML</h2> 
             <table>
                 <tr>
                     <th>Elemento</th>
@@ -121,6 +141,13 @@
         <section class="sec-azul">
             <h2>Lenguaje CSS</h2>
 
+        </section>
+        <section>
+            <article>
+                <h2>  </h2>
+                <p> color violeta  </p>
+            </article>
+            <p>  color naranja  </p>
         </section>
 </body>
 
