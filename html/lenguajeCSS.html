@@ -4,23 +4,21 @@
 
 <head>
     <style>
-        .contenedor {
-            width: 300px;
-            height: 300px;
-            border: 2px solid blue;
+        .contenedor-Formulario{
+            width: 500px;
+            height: 500px;
+            border: 1cm solid orange;
             display: flex;
-            justify-content:center;
+        }
+        form{
+            display: flex;
+            justify-content: space-between;
             align-items: center;
-        
+            flex-direction: column;
         }
         .elemento{
-            width: 300px;
-            height: 300px;
-            border: 2px solid blue;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        
+            border: 20px solid orange;
+            padding: 20px;
 
         }
     </style>
@@ -41,10 +39,30 @@
             </ul>
         </nav>
     </header>
-    <div class="contenedor">
-        <div class="elemento">1</div>
-        <div class="elemento">2</div>
-    </div>
+
+    <form>
+        <div class="contenedor-Formulario">
+            <div class="elemento">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo">
+                <label for="tel">Telefono</label>
+                <input type="text" id="tel">
+            </div>
+            <div>
+                <label for="calle">Calle</label>
+                <input type="text" id="calle">
+                <label for="delegacion">Delegacion</label>
+                <input type="text" id="delegacion">
+                <input type="radio" id="si" name="pago">
+                <label for="si"> Si</label>
+                <label for="enviar">Enviar</label>
+                <input type="checkbox" id="enviar">
+            </div>
+        </div>
+    </form>
+
 </body>
 
 </html>
